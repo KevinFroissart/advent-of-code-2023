@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 public class day1Part2 {
 
 	public static void main(String[] args) throws IOException {
-		Path path = Paths.get("src/main/resources/day1/input1.txt");
+		Path path = Paths.get("src/main/resources/day1/input.txt");
 		List<String> lines = Files.readAllLines(path);
 		int total = 0;
 		for (String line : lines) {
